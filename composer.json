@@ -1,0 +1,16 @@
+{
+    "name": "fwkit/collections",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Fung Wing Kit",
+            "email": "wengee@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Fung\\Collections\\": "src/"
+        }
+    },
+    "require": {}
+}
