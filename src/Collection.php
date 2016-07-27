@@ -103,6 +103,12 @@ class Collection implements \ArrayAccess, \Iterator, \Countable, \JsonSerializab
         return next($this->items);
     }
 
+    public function valid()
+    {
+        $key = key($this->items);
+        return ($key !== null && $key !== false);
+    }
+
     public function keys()
     {
         return array_keys($this->items);
